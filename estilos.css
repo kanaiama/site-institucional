@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    color: #f1f1f1;
+    color: #F1F1F1;
 }
 
 .header {
@@ -20,14 +20,15 @@
 
 h1 {
     color: #32b9cd;
-    font-weight: 800;
+    font-weight: 900;
+
 }
 
 ul {
     display: flex;
     width: 350px;
     justify-content: space-between;
-    list-style: none;   
+    list-style: none;
 }
 
 li {
@@ -62,8 +63,9 @@ li {
 .caixa {
     flex-direction: column;
     align-items: center;
-    margin: 0 15px;   
-} 
+    margin: 0 15px;
+}
+
 .caixa h4 {
     margin: 15px 0;
     color: #e6005a;
@@ -71,9 +73,29 @@ li {
 
 .caixa p {
     text-align: center;
-    color: black
+    color: #000000; 
+    /* color: black; */
 }
 
 .caixa img {
     width: 170px;
+}
+
+.footer {
+    padding: 45px 0;
+    background-color: #32b9cd;
+}
+
+.footer .container {
+    justify-content: center;
+}
+
+.footer p {
+    color:#FFFFFF;
+}
+
+li a {
+    color: #e3b062;
+    text-decoration: none;
+    cursor: pointer;
 }
